@@ -1,0 +1,44 @@
+/*modificaciones header*/
+
+.seccionHeader{
+    @include flex;
+    border-bottom: $border-secundario 0.2rem dashed;
+    @include grid (1,2);
+
+    .imagenHeader{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        grid-column: 1/2;
+
+        .imagen_header{   
+            width: 60%;
+        }
+    }
+
+    .navegacion{
+        align-items: center;
+        grid-column: 2/2;
+            .anclas{
+                margin-right:$spacing-small;
+                font-family: $fuenteanclas;
+                font-size: $text-xsmall;
+                transition: all 1s;
+                &:hover{
+                    color: $dark;
+                    background-color: violet;
+                    border-radius:3rem;
+                    border-style: solid;
+                    letter-spacing: 0.25em;
+                    font-weight: bold;
+                
+                
+                    
+
+                }
+            }                
+    }
+
+
+}
+

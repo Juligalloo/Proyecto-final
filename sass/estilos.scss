@@ -1,6 +1,22 @@
-.tituloPrincipal{
-    background-color: aquamarine;
-}
+/*misc*/
 
+@import "./misc/variables";
+@import "./misc/reset";
+@import "./misc/mixins";
 
-  
+/*partials*/
+
+@import "./partials/header";
+@import "./partials/footer";
+
+/*views*/
+
+@import "./views/index";
+@import "./views/nosotros";
+@import "./views/datos";
+@import "./views/productos";
+@import "./views/contacto";
+
+/*media queries*/
+
+@import "./misc/mediaqueries";

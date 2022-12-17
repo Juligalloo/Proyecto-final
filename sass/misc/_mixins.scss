@@ -1,0 +1,14 @@
+/*mixins*/
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@mixin grid ($gtc, $gtr) {
+    display: grid;
+    grid-template-columns: repeat($gtc,1fr);
+    grid-template-rows: repeat($gtr,auto);
+}

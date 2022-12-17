@@ -1,3 +1,59 @@
-.tituloPrincipal {
-  background-color: aquamarine;
-}/*# sourceMappingURL=estilos.css.map */
+/*misc*/ /*variables colors*/
+/*variables spacings*/
+/*variables fonts*/
+/*variables texts*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62, 5%;
+}
+
+.imagenes {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*mixins*/
+/*partials*/
+/*modificaciones header*/
+.seccionHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: black 0.2rem dashed;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+.seccionHeader .imagenHeader {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  grid-column: 1/2;
+}
+.seccionHeader .imagenHeader .imagen_header {
+  width: 60%;
+}
+.seccionHeader .navegacion {
+  align-items: center;
+  grid-column: 2/2;
+}
+.seccionHeader .navegacion .anclas {
+  margin-right: 4rem;
+  font-family: "Dancing Script", cursiva;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+.seccionHeader .navegacion .anclas:hover {
+  color: black;
+  background-color: violet;
+  border-radius: 3rem;
+  border-style: solid;
+  letter-spacing: 0.25em;
+  font-weight: bold;
+}
+
+/*views*/
+/*media queries*//*# sourceMappingURL=estilos.css.map */
