@@ -1,0 +1,44 @@
+/*modificaciones main index*/
+
+.cuerpo{
+    background-color: pink;
+    .mainTittle{
+        text-align: center;
+        margin-top: $spacing-small;
+        .tituloPrincipal_index{
+            font-family: $titulosprincipales;
+            font-size: 4.5rem;
+            font-weight: bold;
+            letter-spacing: 0.8rem;
+            padding-bottom: $spacing-xsmall;
+            text-decoration: underline 0.3rem;
+            color: $color-primario;
+            
+        }
+        .subtituloPrincipal_index{
+            font-family: $titulosprincipales;
+            font-size: 1.8rem;
+            font-weight: bold;
+            letter-spacing: 0.3rem;
+            color: $color-primario;
+        }
+    }
+    
+    .imagenmano_index{
+        @include flex;
+        margin-top: $spacing-medium;
+    }
+    
+    .manoAnimada{
+        animation:animaciones infinite 2s ease-in-out;
+        width: 30%;
+        
+    }
+    
+    @keyframes animaciones {
+        0% {transform: translateY(0);}
+        50% {transform: translateY(-25px);}
+        100% {transform: translateY(0);}
+    }
+}
+

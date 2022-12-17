@@ -14,6 +14,8 @@
      object-fit: cover;
 }
 
+
+
 /*mixins*/
 /*partials*/
 /*modificaciones header*/
@@ -38,6 +40,7 @@
 }
 .seccionHeader .navegacion {
   align-items: center;
+  width: 95%;
   grid-column: 2/2;
 }
 .seccionHeader .navegacion .anclas {
@@ -56,4 +59,66 @@
 }
 
 /*views*/
+/*modificaciones main index*/
+
+
+.mainTittle {
+  text-align: center;
+  margin-top: 4rem;
+}
+.mainTittle .tituloPrincipal_index {
+  font-family: "Island Moments", cursiva;
+  font-size: 4.5rem;
+  font-weight: bold;
+  letter-spacing: 0.8rem;
+  padding-bottom: 2rem;
+  -webkit-text-decoration: underline 0.3rem;
+          text-decoration: underline 0.3rem;
+  color: rgb(157, 82, 157);
+}
+.mainTittle .subtituloPrincipal_index {
+  font-family: "Island Moments", cursiva;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  color: rgb(157, 82, 157);
+}
+
+.imagenmano_index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 6rem;
+}
+
+.manoAnimada {
+  -webkit-animation: animaciones infinite 2s ease-in-out;
+          animation: animaciones infinite 2s ease-in-out;
+  width: 30%;
+}
+
+@-webkit-keyframes animaciones {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes animaciones {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 /*media queries*//*# sourceMappingURL=estilos.css.map */

@@ -1,5 +1,9 @@
 /*modificaciones header*/
 
+.header_content{
+    background-color: $light;
+}
+
 .seccionHeader{
     @include flex;
     border-bottom: $border-secundario 0.2rem dashed;
@@ -18,9 +22,10 @@
 
     .navegacion{
         align-items: center;
+        width: 95%;
         grid-column: 2/2;
             .anclas{
-                margin-right:$spacing-small;
+                margin-right:$spacing-Xsmall;
                 font-family: $fuenteanclas;
                 font-size: $text-xsmall;
                 transition: all 1s;
