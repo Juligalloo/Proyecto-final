@@ -16,34 +16,44 @@
 </head>
 <body>
 
-    <header class="container header_content">
-
-        <section class="seccionHeader">
-            <div class="imagenHeader col-lg-4">
-                <a href="./index.html"><img class="imagen_header" src="./assets/images/skulka yoga-logo.jpg" alt="este es nuestro logo, con el que nos sentimos identificados,
-                    respresenta la union, la amistad y el amor hacia la vida y nuestros alrededores"></a>
+    <header class="container-fluid  header_content">
+            
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 divImagen_header">
+                <a class="anclaHeader" href="./index.html"><img class="imagenHeader" src="./assets/images/skulka yoga-logo.jpg" alt="Nuestro escudo, con el que nos identificamos, representado la union y la fuerza"></a>
             </div>
-
-            <div class="col-lg-8 navegacion">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">                                        
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-ligh col-lg-8 col-sm-12 ">
+                <div class="container-fluid">
+                    
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                        <a class="nav-link active anclas" href="#">Inicio</a>
-                        <a class="nav-link anclas" href="./pages/nosotros.html">nosotros</a>
-                        <a class="nav-link anclas" href="./pages/datos.html">Datos</a>
-                        <a class="nav-link anclas" href="./pages/productos.html">productos</a>
-                        <a class="nav-link anclas" href="./pages/contacto.html">contacto</a>
-                        </div>
+                    <div class="collapse navbar-collapse  " id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active  anclas" href="#">inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  anclas" href="./pages/nosotros.html">nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  anclas" href="./pages/datos.html">datos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  anclas" href="./pages/productos.html">productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  anclas" href="./pages/contacto.html">contacto</a>
+                            </li>
+                        </ul>
                     </div>
-                    </div>
-                </nav>
-            </div>
-        </section>
-        
+                </div>
+            </nav>
+        </div>
+
+
     </header>
+    
     
     <main class="cuerpo">
 
@@ -54,19 +64,99 @@
             </div>
 
             <div class="imagenmano_index">
-                <img class="manoAnimada" src="./assets/images/logomano.svg" alt="">
+                <img class="manoAnimada" src="./assets/images/logomano.svg" alt="el ojo en la mano representa que la vision existe desde diferentes perspectivas">
             </div>
+        
+
+            <div class="seccionBienvenida" data-aos="fade-up" data-aos-duration="3000">
+                <h2 class="tituloBienvenida">bienvenidos a nuestro espacio</h2>
+            </div>
+
+            <section class="row seccionesIndex" data-aos="fade-up" data-aos-duration="3000">
+
+                <div class="col-lg-6 col-sm-12 order-lg-1 seccion_uno">
+                    <h3 class="miniTitulos_index">¿Que es la yoga?</h3>
+                    <p class="parrafos_index">El yoga es una disciplina tradicional espiritual, física y mental originada en la India. 
+                    El yoga es una de las seis dárshanas ortodoxas del hinduismo. Enfatiza la meditación y la liberación.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12 order-lg-2 imagenSeccion_uno">
+                    <img class="imagenIndex_uno" src="./assets/images/yoga2.html.jpg" alt="Esta seccion cuenta que es la yoga y de donde proviene">
+                </div>
+            </section>
+
+            <hr>
+                
+            <section class="row seccionesIndex" data-aos="fade-up" data-aos-duration="3000">    
+                <div class="col-lg-6 col-sm-12  order-lg-2  seccion_dos">
+                    <h3 class="miniTitulos_index">¿Por que es tan importante?</h3>
+                    <p class="parrafos_index">El yoga puede mejorar el nivel general de su estado físico y mejorar su postura y su flexibilidad.
+                        También puede: Reducir su presión arterial y su frecuencia cardíaca. Ayudarle a relajarse.</p>
+                </div>
+                <div  class="col-lg-6 col-sm-12 imagenSeccion_dos">
+                    <img class="imagenIndex_dos" src="./assets/images/yoga4.html.jpg" alt="Esta seccion manifiesta la importancia que contiene esta disciplina">
+                </div>
+
+            </section>
+
+            <hr>
+
+            <section class="row seccionesIndex" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-12 col-sm-12 seccion_tres">
+                    <h3 class="miniTitulos_index3">¿Por que venir a skulka?</h3>
+                    <p class="parrafos_index3">Nuestra funcion es hacerte sentir como en casa, estra a tu lado siempre. 
+                        Unicos en la zona, con un salon con gran espaciado y de primer nivel.</p>
+                </div>
+                <div  class="col-lg-12 col-sm-12 imagenSeccion_tres">
+                    <img class="imagenIndex_tres" src="./assets/images/yohahd.jpg" alt="En esta ultima parte, la seccion nos cuenta porque debes venir a nuestro espacio">
+                </div>
+
+            </section>
+
         </div>
 
     </main>
 
-    <footer>
+    <footer class="container-fluid footer_content ">
+        <div class="row">
+            <div class="col-lg-4 order-lg-1 col-sm-12 logo_footer">
+                <a href="./index.html"><img class="footer_logo" src="./assets/images/skulka yoga-logo.jpg" alt="Nuestro escudo, con el que nos identificamos, representado la union y la fuerza"></a>
+            </div>
+            <div class="col-lg-4 col-sm-12 order-lg-2 nosotros_footer" >
+                <h4 class="miniTitulo_footer">Sobre nosotros</h4>
+                <p class="parrafo_footer">Nos encontramos en el barrio de Versailles, CABA. El mejor servicio
+                    de yoga en la zona, con un espacio unico, aireado, para que olvides un poco
+                    las malas sensaciones y que disfrutes de un buen rato.
+                </p>
+            </div>
+            <div class="col-lg-4 col-sm-12 order-lg-3 nuestras_redes">
+                    <h4 class="miniTitulo_footer_redes">Nuestras redes</h4>
+                    <div class="logos_redes">
+                        <a href="https://www.instagram.com/skulkayoga/" target="_blank">
+                            <img class="logo_ig" src="./assets/images/instagram.svg" alt="Por esta imagen, tan solo haciendo click, podras 
+                            visitar nuestra pagina de instragram"></a>
+                        <a href="https://www.youtube.com/@skulkayoga8325" target="_blank">
+                            <img class="logo_yt" src="./assets/images/youtube.svg" alt="Por esta imagen, tan solo haciendo click, podras 
+                            visitar nuestra pagina de youtube"></a>         
+                    </div>
+            </div>
+             
+        </div>
+
+        <div class="row derechos_footer">
+            <div class="col-lg-12 col-sm-12 footer_derechos">
+                <p class="parrafo_derechos">2022 <b>-skulka yoga-</b>derechos de autor</p>
+                
+            </div>
+                
+
+        </div>
+        
+
 
     </footer>
 
 
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

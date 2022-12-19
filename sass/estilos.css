@@ -10,46 +10,35 @@
 }
 
 .imagenes {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
-
 
 /*mixins*/
 /*partials*/
 /*modificaciones header*/
-.seccionHeader {
+.header_content {
+  border-bottom: 0.3rem black solid;
+  align-items: center;
+}
+.header_content .divImagen_header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  border-bottom: black 0.2rem dashed;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(2, auto);
 }
-.seccionHeader .imagenHeader {
+.header_content .divImagen_header .anclaHeader {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  text-align: center;
-  grid-column: 1/2;
 }
-.seccionHeader .imagenHeader .imagen_header {
-  width: 60%;
-}
-.seccionHeader .navegacion {
-  align-items: center;
-  width: 95%;
-  grid-column: 2/2;
-}
-.seccionHeader .navegacion .anclas {
-  margin-right: 4rem;
+
+.anclas {
+  margin-right: 2rem;
   font-family: "Dancing Script", cursiva;
   font-size: 1.2em;
   transition: all 1s;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
 }
-.seccionHeader .navegacion .anclas:hover {
+.anclas:hover {
   color: black;
   background-color: violet;
   border-radius: 3rem;
@@ -58,58 +47,107 @@
   font-weight: bold;
 }
 
+/*modificaciones footer*/
+.footer_content {
+  border-top: 0.3rem black solid;
+  align-items: center;
+}
+.footer_content .logo_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_content .logo_footer .footer_logo {
+  height: 100px;
+}
+.footer_content .nosotros_footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+.footer_content .nosotros_footer .miniTitulo_footer {
+  font-family: "Satisfacer", cursiva;
+  font-weight: bold;
+  font-size: 2em;
+}
+.footer_content .nosotros_footer .parrafo_footer {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  padding-bottom: 2rem;
+}
+.footer_content .nuestras_redes {
+  text-align: center;
+  margin: auto;
+}
+.footer_content .nuestras_redes .miniTitulo_footer_redes {
+  font-family: "Satisfacer", cursiva;
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 1.5rem;
+}
+.footer_content .nuestras_redes .logos_redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_content .nuestras_redes .logos_redes .logo_ig {
+  height: 40px;
+  margin-right: 2rem;
+}
+.footer_content .nuestras_redes .logos_redes .logo_yt {
+  height: 40px;
+}
+
+.derechos_footer {
+  background-color: gray;
+  align-items: center;
+}
+.derechos_footer .footer_derechos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.derechos_footer .footer_derechos .parrafo_derechos {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
 /*views*/
 /*modificaciones main index*/
-
-
-.mainTittle {
-  text-align: center;
-  margin-top: 4rem;
+.cuerpo {
+  background-color: rgb(218, 192, 255);
 }
-.mainTittle .tituloPrincipal_index {
+.cuerpo .mainTittle {
+  text-align: center;
+  padding-top: 4rem;
+}
+.cuerpo .mainTittle .tituloPrincipal_index {
   font-family: "Island Moments", cursiva;
   font-size: 4.5rem;
   font-weight: bold;
   letter-spacing: 0.8rem;
   padding-bottom: 2rem;
-  -webkit-text-decoration: underline 0.3rem;
-          text-decoration: underline 0.3rem;
+  text-decoration: underline 0.3rem;
   color: rgb(157, 82, 157);
 }
-.mainTittle .subtituloPrincipal_index {
+.cuerpo .mainTittle .subtituloPrincipal_index {
   font-family: "Island Moments", cursiva;
   font-size: 1.8rem;
   font-weight: bold;
   letter-spacing: 0.3rem;
   color: rgb(157, 82, 157);
 }
-
-.imagenmano_index {
+.cuerpo .imagenmano_index {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   margin-top: 6rem;
 }
-
-.manoAnimada {
-  -webkit-animation: animaciones infinite 2s ease-in-out;
-          animation: animaciones infinite 2s ease-in-out;
+.cuerpo .manoAnimada {
+  animation: animaciones infinite 2s ease-in-out;
   width: 30%;
 }
-
-@-webkit-keyframes animaciones {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-25px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
 @keyframes animaciones {
   0% {
     transform: translateY(0);
@@ -121,4 +159,110 @@
     transform: translateY(0);
   }
 }
+
+.seccionBienvenida {
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+.seccionBienvenida .tituloBienvenida {
+  font-family: "Rubik Vinyl", cursiva;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: overline;
+}
+
+.seccionesIndex {
+  text-align: center;
+  align-items: center;
+}
+.seccionesIndex .seccion_uno {
+  display: inline-block;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.seccionesIndex .seccion_uno .miniTitulos_index {
+  font-family: "Satisfacer", cursiva;
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 2rem;
+}
+.seccionesIndex .seccion_uno .parrafos_index {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+.seccionesIndex .imagenSeccion_uno {
+  display: inline-block;
+  padding-top: 4rem;
+  padding: 4rem;
+}
+.seccionesIndex .imagenSeccion_uno .imagenIndex_uno {
+  width: 60%;
+  border: 0.3rem black solid;
+  object-fit: cover;
+}
+
+.seccionesIndex {
+  text-align: center;
+  align-items: center;
+}
+.seccionesIndex .seccion_dos {
+  display: inline-block;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.seccionesIndex .seccion_dos .miniTitulos_index {
+  font-family: "Satisfacer", cursiva;
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 2rem;
+}
+.seccionesIndex .seccion_dos .parrafos_index {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+.seccionesIndex .imagenSeccion_dos {
+  display: inline-block;
+  padding-top: 4rem;
+  padding: 4rem;
+}
+.seccionesIndex .imagenSeccion_dos .imagenIndex_dos {
+  width: 60%;
+  border: 0.3rem black solid;
+  object-fit: cover;
+}
+
+.seccionesIndex {
+  text-align: center;
+  align-items: center;
+}
+.seccionesIndex .seccion_tres {
+  display: inline-block;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.seccionesIndex .seccion_tres .miniTitulos_index3 {
+  font-family: "Satisfacer", cursiva;
+  font-weight: bold;
+  font-size: 3em;
+}
+.seccionesIndex .seccion_tres .parrafos_index3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1.6em;
+  padding-top: 4rem;
+}
+.seccionesIndex .imagenSeccion_tres {
+  display: inline-block;
+  padding-top: 4rem;
+  padding: 4rem;
+}
+.seccionesIndex .imagenSeccion_tres .imagenIndex_tres {
+  width: 60%;
+  border: 0.3rem black solid;
+  object-fit: cover;
+  margin-bottom: 6rem;
+}
+
 /*media queries*//*# sourceMappingURL=estilos.css.map */

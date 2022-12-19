@@ -1,10 +1,10 @@
 /*modificaciones main index*/
 
 .cuerpo{
-    background-color: pink;
+    background-color: rgb(218, 192, 255);
     .mainTittle{
         text-align: center;
-        margin-top: $spacing-small;
+        padding-top: $spacing-small;
         .tituloPrincipal_index{
             font-family: $titulosprincipales;
             font-size: 4.5rem;
@@ -42,3 +42,113 @@
     }
 }
 
+.seccionBienvenida{
+    margin-left: $spacing-small;
+    margin-top: $spacing-small;
+    .tituloBienvenida{
+        font-family: $subtitulosprincipales;
+        font-weight: bold;
+        font-size: 2rem;
+        text-decoration: overline;
+    }
+
+}
+
+
+.seccionesIndex{
+    text-align: center;
+    align-items: center;
+    .seccion_uno{
+        display: inline-block;
+        padding-top: $spacing-small;
+        padding-bottom: $spacing-small;
+        .miniTitulos_index{
+            font-family: $minititulos;
+            font-weight: bold;
+            font-size: $text-medium;
+            padding-bottom: $spacing-xsmall;
+        }
+        .parrafos_index{
+            font-family: $parrafos;
+            font-weight: lighter;
+            font-size: $text-xsmall;
+            
+        }
+    }
+    .imagenSeccion_uno{
+        display:inline-block;
+        padding-top: $spacing-small;
+        padding: $spacing-small;
+        .imagenIndex_uno{
+            width: 60%;
+            border: 0.3rem black solid;
+            object-fit: cover;
+        }
+    }   
+
+}
+
+.seccionesIndex{
+    text-align: center;
+    align-items: center;
+    .seccion_dos{
+        display: inline-block;
+        padding-top: $spacing-small;
+        padding-bottom: $spacing-small;
+        .miniTitulos_index{
+            font-family: $minititulos;
+            font-weight: bold;
+            font-size: $text-medium;
+            padding-bottom: $spacing-xsmall;
+        }
+        .parrafos_index{
+            font-family: $parrafos;
+            font-weight: lighter;
+            font-size: $text-xsmall;
+            
+        }
+    }
+    .imagenSeccion_dos{
+        display:inline-block;
+        padding-top: $spacing-small;
+        padding: $spacing-small;
+        .imagenIndex_dos{
+            width: 60%;
+            border: 0.3rem black solid;
+            object-fit: cover;
+        }
+    }   
+
+}
+
+.seccionesIndex{
+    text-align: center;
+    align-items: center;
+    .seccion_tres{
+        display: inline-block;
+        padding-top: $spacing-small;
+        padding-bottom: $spacing-small;
+        .miniTitulos_index3{
+            font-family: $minititulos;
+            font-weight: bold;
+            font-size: $text-large;
+        }
+        .parrafos_index3{
+            font-family: $parrafos;
+            font-weight: lighter;
+            font-size: $text-small;
+            padding-top: $spacing-small;
+        }
+    }
+    .imagenSeccion_tres{
+        display:inline-block;
+        padding-top: $spacing-small;
+        padding: $spacing-small;
+        .imagenIndex_tres{
+            width: 60%;
+            border: 0.3rem black solid;
+            object-fit: cover;
+            margin-bottom: $spacing-medium;
+        }
+    }   
+}

@@ -1,0 +1,92 @@
+/*misc*/
+/*variables colors*/
+/*variables spacings*/
+/*variables fonts*/
+/*variables texts*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62,5%; }
+
+.imagenes {
+  object-fit: cover; }
+
+/*mixins*/
+/*partials*/
+/*modificaciones header*/
+.header_content {
+  background-color: white; }
+
+.seccionHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, auto); }
+  .seccionHeader .imagenHeader {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    grid-column: 1/2; }
+    .seccionHeader .imagenHeader .imagen_header {
+      width: 60%; }
+  .seccionHeader .navegacion {
+    align-items: center;
+    width: 95%;
+    grid-column: 2/2; }
+    .seccionHeader .navegacion .anclas {
+      margin-right: 2rem;
+      font-family: "Dancing Script", cursiva;
+      font-size: 1.2em;
+      transition: all 1s; }
+      .seccionHeader .navegacion .anclas:hover {
+        color: black;
+        background-color: violet;
+        border-radius: 3rem;
+        border-style: solid;
+        letter-spacing: 0.25em;
+        font-weight: bold; }
+
+/*views*/
+/*modificaciones main index*/
+.cuerpo {
+  background-color: #dac0ff; }
+  .cuerpo .mainTittle {
+    text-align: center;
+    margin-top: 4rem; }
+    .cuerpo .mainTittle .tituloPrincipal_index {
+      font-family: "Island Moments", cursiva;
+      font-size: 4.5rem;
+      font-weight: bold;
+      letter-spacing: 0.8rem;
+      padding-bottom: 2rem;
+      text-decoration: underline 0.3rem;
+      color: #9d529d; }
+    .cuerpo .mainTittle .subtituloPrincipal_index {
+      font-family: "Island Moments", cursiva;
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 0.3rem;
+      color: #9d529d; }
+  .cuerpo .imagenmano_index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 6rem; }
+  .cuerpo .manoAnimada {
+    animation: animaciones infinite 2s ease-in-out;
+    width: 30%; }
+
+@keyframes animaciones {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(-25px); }
+  100% {
+    transform: translateY(0); } }
+
+/*media queries*/

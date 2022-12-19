@@ -1,0 +1,60 @@
+/*modificaciones footer*/
+
+.footer_content{
+    border-top: 0.3rem black solid;
+    align-items: center;
+    .logo_footer{
+        @include flex;
+        .footer_logo{
+            height: 100px;
+        }
+    }
+    .nosotros_footer{
+        text-align: center;
+        margin-top: $spacing-xsmall;
+        .miniTitulo_footer{
+            font-family: $minititulos;
+            font-weight: bold;
+            font-size: $text-medium;
+        }
+        .parrafo_footer{
+            font-family: $parrafos;
+            font-weight: lighter;
+            font-size: $text-xsmall;
+            padding-bottom: $spacing-xsmall;
+        }
+    }
+    .nuestras_redes{
+        text-align: center;
+        margin: auto;
+        .miniTitulo_footer_redes{
+            font-family: $minititulos;
+            font-weight: bold;
+            font-size: $text-medium;
+            padding-bottom: 1.5rem;
+        }
+        .logos_redes{
+            @include flex;
+            .logo_ig{
+                height: 40px;
+                margin-right: $spacing-xsmall;
+            }
+            .logo_yt{
+                height: 40px;
+            }
+        }
+    }
+}
+
+.derechos_footer{
+    background-color: gray;
+    align-items: center;
+    .footer_derechos{
+        @include flex;
+        .parrafo_derechos{
+            font-family: $parrafos;
+            font-size: $text-xsmall;
+            font-weight: normal;
+        }
+    }
+}
