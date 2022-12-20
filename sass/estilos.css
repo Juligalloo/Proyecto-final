@@ -440,4 +440,81 @@
   font-size: 1rem;
 }
 
+/*modificando contacto.html*/
+.divPrincipal_contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.divPrincipal_contacto .tituloPrincipal_contacto {
+  font-family: "Island Moments", cursiva;
+  font-size: 4.5em;
+  font-weight: bolder;
+  text-decoration: underline 0.3rem;
+}
+
+.divSubtitulo_contacto {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.divSubtitulo_contacto .subtitulo_contacto {
+  font-family: "Rubik Vinyl", cursiva;
+  font-size: 1.6em;
+  padding-bottom: 4rem;
+}
+
+.div_form {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  border: 0.3rem black solid;
+}
+.div_form .div_nombre_form {
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.div_form .div_nombre_form .parrafos_form_nombre {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+.div_form .parrafos_form_email {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+.div_form .parrafos_form_number {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+.div_form .div_consultas {
+  margin-bottom: 2rem;
+}
+.div_form .div_consultas .parrafos_form_consultas {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+  padding-top: 2rem;
+}
+.div_form .div_botones {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+}
+.div_form .div_botones .boton_enviar {
+  width: 25%;
+  margin-right: 1.5rem;
+}
+.div_form .div_botones .boton_borrar {
+  width: 25%;
+}
+
+.div_animado_contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 /*media queries*//*# sourceMappingURL=estilos.css.map */

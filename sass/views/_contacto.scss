@@ -1,0 +1,78 @@
+/*modificando contacto.html*/
+
+.divPrincipal_contacto{
+    @include flex;
+    margin-top: $spacing-medium;
+    margin-bottom: $spacing-medium;
+    .tituloPrincipal_contacto{
+        font-family: $titulosprincipales;
+        font-size: $text-xlarge;
+        font-weight: bolder;
+        text-decoration: underline 0.3rem;
+    }
+}
+
+.divSubtitulo_contacto{
+    text-align: center;
+    margin-top: $spacing-xsmall;
+    margin-bottom: $spacing-xsmall;
+    .subtitulo_contacto{
+        font-family: $subtitulosprincipales;
+        font-size: $text-small;
+        padding-bottom: $spacing-small;
+    }
+}
+
+.div_form{
+    text-align: center;
+    margin-top: $spacing-small;
+    margin-bottom: 3rem;
+    border: 0.3rem black solid;
+    .div_nombre_form{
+        margin: auto;
+        padding-top: $spacing-xsmall;
+        padding-bottom: $spacing-xsmall;
+        .parrafos_form_nombre{
+            font-family: $parrafos;
+            font-size: $text-xsmall;
+        }
+    }
+        .parrafos_form_email{
+            font-family: $parrafos;
+            font-size: $text-xsmall;
+        }
+        .parrafos_form_number{
+            font-family: $parrafos;
+            font-size: $text-xsmall;
+        }
+    .div_consultas{
+        margin-bottom: $spacing-xsmall;
+        .parrafos_form_consultas{
+            font-family: $parrafos;
+            font-size: $text-xsmall;
+            padding-top: $spacing-xsmall;
+        }
+        
+    }
+
+    .div_botones{
+        margin-top: $spacing-small;
+        padding-bottom: $spacing-small;
+        .boton_enviar{
+            width: 25%;
+            margin-right: 1.5rem;
+        }
+        .boton_borrar{
+            width: 25%;
+        }
+    }
+
+
+}
+
+.div_animado_contacto{
+    @include flex;
+    margin-top: $spacing-small;
+    margin-bottom: $spacing-small;
+}
+    
