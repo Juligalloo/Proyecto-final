@@ -1,0 +1,165 @@
+/*modificaciones nosotros.html*/
+
+.secciontitulo_nosotros{
+    display: inline-block;
+    text-align: center;
+    margin-top: $spacing-xsmall;
+    margin-bottom: $spacing-xsmall;
+    .tituloPrincipal_nosotros{
+        font-family: $titulosprincipales;
+        font-size: $text-xlarge;
+        font-weight: bold;
+    }
+    .subtitulo_nosotros{
+        font-family: $subtitulosprincipales;
+        font-weight: lighter;
+        font-size: 1.6rem;
+        padding-top: 1.5rem;
+    }
+    .subtitulo_nosotros2{
+        font-family: $subtitulosprincipales;
+        font-weight: lighter;
+        font-size: 1.1rem;
+        
+    }
+}
+
+.sobre_nosotros{
+    margin-top: $spacing-small;
+    .mano_nosotros{
+        @include flex;
+        .manoAnimada_nosotros{
+            animation: animaciones infinite 2s ease-in-out;
+            height: 65%;
+            
+        }
+    }
+    .seccion_motivacion{
+        margin: auto;
+        text-align: center;
+        .div_motivacion{
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            .titulo_motivacion{
+              font-family: $minititulos;
+              font-size: $text-medium;
+              font-weight: bold;  
+            }
+            .parrafo_motivacion{
+               font-family: $parrafos;
+               font-size: $text-xsmall;
+               font-weight: lighter; 
+            }
+        }
+        .div_skulka{
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            .titulo_skulka{
+                font-family: $minititulos;
+                font-size: $text-medium;
+                font-weight: bold;
+            }
+            .parrafo_skulka{
+                font-family: $parrafos;
+                font-size: $text-xsmall;
+                font-weight: lighter; 
+             }
+        }
+    }
+}
+
+@keyframes animaciones {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-25px);}
+    100% {transform: translateY(0);}
+}
+
+.seccion_ubicacion{
+    @include flex;
+    .div_ubicacion{
+        text-align: center;
+        .div_ubicacion2{
+            display: inline-block;
+            text-align: center;
+            .miniTitulo_ubicacion{
+                font-family: $minititulos;
+                font-size: $text-medium;
+                font-weight: bold;
+            }
+           .imagen_ubi{
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            width: 30%;
+           } 
+        }
+        .div_mapa{
+            @include flex;
+            
+        }
+    }
+}
+
+.seccion_horarios_valores{
+    padding-top: $spacing-medium;
+    padding-bottom: $spacing-medium;
+    .div_horarios_valores{
+        text-align: center;
+        .titulo_HV{
+            font-family: $minititulos;
+            font-size: $text-medium;
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
+    }
+    .div_horarios{
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 3rem;
+        .titulo_horario{
+            font-family: $tituloscards;
+            font-size: $text-small;
+            font-weight: bold;
+            margin-bottom: $spacing-xsmall;
+        }
+        .div_titulo_horario{
+           display: inline-block;
+           text-align: center;
+           border: 0.3rem white solid;
+           width: 50%; 
+           .parrafo_horario{
+            padding-top: 1rem;
+            font-family: $parrafos;
+            font-size: 1rem;            
+           }
+        }
+    }
+    .div_mano_nosotros{
+        @include flex;
+        margin-bottom: 3rem;
+        .mano_nosotros2{
+            padding-top: 1.5rem;
+        }
+    }
+    .div_valores{
+      display: inline-block;
+      text-align: center;
+      margin-bottom: 3rem;
+      .titulo_valores{
+        font-family: $tituloscards;
+        font-size: $text-small;
+        font-weight: bold;
+        margin-bottom: $spacing-xsmall;
+      }
+      .div_titulo_valores{
+        display: inline-block;
+        text-align: center;
+        border: 0.3rem white solid;
+        width: 50%; 
+        .parrafo_valores{
+            padding-top: 1rem;
+            font-family: $parrafos;
+            font-size: 1rem; 
+        }
+      }  
+    }
+}

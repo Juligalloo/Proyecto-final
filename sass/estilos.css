@@ -265,4 +265,179 @@
   margin-bottom: 6rem;
 }
 
+/*modificaciones nosotros.html*/
+.secciontitulo_nosotros {
+  display: inline-block;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.secciontitulo_nosotros .tituloPrincipal_nosotros {
+  font-family: "Island Moments", cursiva;
+  font-size: 4.5em;
+  font-weight: bold;
+}
+.secciontitulo_nosotros .subtitulo_nosotros {
+  font-family: "Rubik Vinyl", cursiva;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  padding-top: 1.5rem;
+}
+.secciontitulo_nosotros .subtitulo_nosotros2 {
+  font-family: "Rubik Vinyl", cursiva;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+
+.sobre_nosotros {
+  margin-top: 4rem;
+}
+.sobre_nosotros .mano_nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre_nosotros .mano_nosotros .manoAnimada_nosotros {
+  animation: animaciones infinite 2s ease-in-out;
+  height: 65%;
+}
+.sobre_nosotros .seccion_motivacion {
+  margin: auto;
+  text-align: center;
+}
+.sobre_nosotros .seccion_motivacion .div_motivacion {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.sobre_nosotros .seccion_motivacion .div_motivacion .titulo_motivacion {
+  font-family: "Satisfacer", cursiva;
+  font-size: 2em;
+  font-weight: bold;
+}
+.sobre_nosotros .seccion_motivacion .div_motivacion .parrafo_motivacion {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+.sobre_nosotros .seccion_motivacion .div_skulka {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.sobre_nosotros .seccion_motivacion .div_skulka .titulo_skulka {
+  font-family: "Satisfacer", cursiva;
+  font-size: 2em;
+  font-weight: bold;
+}
+.sobre_nosotros .seccion_motivacion .div_skulka .parrafo_skulka {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+@keyframes animaciones {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.seccion_ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_ubicacion .div_ubicacion {
+  text-align: center;
+}
+.seccion_ubicacion .div_ubicacion .div_ubicacion2 {
+  display: inline-block;
+  text-align: center;
+}
+.seccion_ubicacion .div_ubicacion .div_ubicacion2 .miniTitulo_ubicacion {
+  font-family: "Satisfacer", cursiva;
+  font-size: 2em;
+  font-weight: bold;
+}
+.seccion_ubicacion .div_ubicacion .div_ubicacion2 .imagen_ubi {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 30%;
+}
+.seccion_ubicacion .div_ubicacion .div_mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion_horarios_valores {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.seccion_horarios_valores .div_horarios_valores {
+  text-align: center;
+}
+.seccion_horarios_valores .div_horarios_valores .titulo_HV {
+  font-family: "Satisfacer", cursiva;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.seccion_horarios_valores .div_horarios {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.seccion_horarios_valores .div_horarios .titulo_horario {
+  font-family: "Crimson Text", serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.seccion_horarios_valores .div_horarios .div_titulo_horario {
+  display: inline-block;
+  text-align: center;
+  border: 0.3rem white solid;
+  width: 50%;
+}
+.seccion_horarios_valores .div_horarios .div_titulo_horario .parrafo_horario {
+  padding-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+}
+.seccion_horarios_valores .div_mano_nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.seccion_horarios_valores .div_mano_nosotros .mano_nosotros2 {
+  padding-top: 1.5rem;
+}
+.seccion_horarios_valores .div_valores {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.seccion_horarios_valores .div_valores .titulo_valores {
+  font-family: "Crimson Text", serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.seccion_horarios_valores .div_valores .div_titulo_valores {
+  display: inline-block;
+  text-align: center;
+  border: 0.3rem white solid;
+  width: 50%;
+}
+.seccion_horarios_valores .div_valores .div_titulo_valores .parrafo_valores {
+  padding-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+}
+
 /*media queries*//*# sourceMappingURL=estilos.css.map */
