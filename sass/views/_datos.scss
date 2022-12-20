@@ -1,0 +1,165 @@
+/*modificando datos.html*/
+
+.seccion_titulo_datos{
+    @include flex;
+    margin-top: $spacing-small;
+    .tituloPrincipal_datos{
+        font-family: $titulosprincipales;
+        font-size: $text-large;
+        font-weight: bolder;
+        text-decoration: underline 0.3rem;
+    }
+}
+
+.div_yogapower{
+    text-align: center;
+    margin: auto;
+    border: 0.3rem white solid;
+    height: 50%;
+    .miniTitulos_datos{
+        font-family: $minititulos;
+        font-size: $text-small;
+        font-weight: bold;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .parrafos_datos{
+        font-family: $parrafos;
+        font-size: $text-xsmall;
+    }
+}
+
+.div_mano_datos{
+    text-align: center;
+    margin: auto;
+    padding-top: $spacing-xsmall;
+    .mano_datos{
+        width: 75%;
+    }
+}
+
+.div_yogahatha{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 0.3rem white solid;
+    .miniTitulos_datos{
+        font-family: $minititulos;
+        font-size: $text-small;
+        font-weight: bold;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .parrafos_datos{
+        font-family: $parrafos;
+        font-size: $text-xsmall;
+    }
+}
+
+.seccion_sahumados_datos{
+    margin-top: $spacing-small;
+    margin-bottom: $spacing-small;
+    .titulo_sahumados_datos{
+        text-align: center;
+        padding-bottom: $spacing-xsmall;
+        font-family: $minititulos;
+        font-size: $text-large;
+        font-weight: bold;
+    }
+    .div_sahumados_datos{
+        @include flex;
+        .imagen_sahumados_datos{
+            @include flex;
+            .imagenSahumados_datos{
+                width: 50%;
+                height: 75%;
+                border: 0.3rem black solid;
+                object-fit: cover;
+            }
+            
+        }
+        .parrafos_sahumados_datos{
+            @include flex;
+            .parrafoSahumerio_datos{
+               text-align: center;
+               padding-left: 3rem;
+               width: 100%;
+               font-family: $parrafos;
+               font-size: $text-xsmall; 
+            }
+        }
+
+    }
+}
+
+.seccion_auricos_datos{
+    margin-top: $spacing-small;
+    margin-bottom: $spacing-small;
+    .titulo_aurico_datos{
+        text-align: center;
+        padding-bottom: $spacing-xsmall;
+        font-family: $minititulos;
+        font-size: $text-large;
+        font-weight: bold;
+    }
+    .div_auricos_datos{
+        @include flex;
+        .imagen_aurico_datos{
+            @include flex;
+            .imagenAurico_datos{
+                width: 70%;
+                height: 85%;
+                border: 0.3rem black solid;
+                object-fit: cover;
+            }
+            
+        }
+        .parrafos_aurico_datos{
+            @include flex;
+            .parrafoAurico_datos{
+               text-align: center;
+               padding-left: 3rem;
+               width: 100%;
+               font-family: $parrafos;
+               font-size: $text-xsmall; 
+            }
+        }
+
+    }
+}
+
+.seccion_hoponomo_datos{
+    margin-top: $spacing-small;
+    padding-bottom: $spacing-small;
+    .titulo_hoponomo_datos{
+        text-align: center;
+        padding-bottom: $spacing-xsmall;
+        font-family: $minititulos;
+        font-size: $text-large;
+        font-weight: bold;
+    }
+    .div_hoponomo_datos{
+        @include flex;
+        .imagen_hoponomo_datos{
+            @include flex;
+            .imagenHoponomo_datos{
+                width: 60%;
+                height: 95%;
+                border: 0.3rem black solid;
+                object-fit: cover;
+            }
+            
+        }
+        .parrafos_hoponomo_datos{
+            @include flex;
+            .parrafoHoponomo_datos{
+               text-align: center;
+               padding-left: 3rem;
+               width: 100%;
+               font-family: $parrafos;
+               font-size: $text-xsmall; 
+            }
+        }
+
+    }
+}

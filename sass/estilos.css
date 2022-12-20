@@ -440,6 +440,185 @@
   font-size: 1rem;
 }
 
+/*modificando datos.html*/
+.seccion_titulo_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.seccion_titulo_datos .tituloPrincipal_datos {
+  font-family: "Island Moments", cursiva;
+  font-size: 3em;
+  font-weight: bolder;
+  text-decoration: underline 0.3rem;
+}
+
+.div_yogapower {
+  text-align: center;
+  margin: auto;
+  border: 0.3rem white solid;
+  height: 50%;
+}
+.div_yogapower .miniTitulos_datos {
+  font-family: "Satisfacer", cursiva;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.div_yogapower .parrafos_datos {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.div_mano_datos {
+  text-align: center;
+  margin: auto;
+  padding-top: 2rem;
+}
+.div_mano_datos .mano_datos {
+  width: 75%;
+}
+
+.div_yogahatha {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 0.3rem white solid;
+}
+.div_yogahatha .miniTitulos_datos {
+  font-family: "Satisfacer", cursiva;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.div_yogahatha .parrafos_datos {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.seccion_sahumados_datos {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.seccion_sahumados_datos .titulo_sahumados_datos {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-family: "Satisfacer", cursiva;
+  font-size: 3em;
+  font-weight: bold;
+}
+.seccion_sahumados_datos .div_sahumados_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_sahumados_datos .div_sahumados_datos .imagen_sahumados_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_sahumados_datos .div_sahumados_datos .imagen_sahumados_datos .imagenSahumados_datos {
+  width: 50%;
+  height: 75%;
+  border: 0.3rem black solid;
+  object-fit: cover;
+}
+.seccion_sahumados_datos .div_sahumados_datos .parrafos_sahumados_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_sahumados_datos .div_sahumados_datos .parrafos_sahumados_datos .parrafoSahumerio_datos {
+  text-align: center;
+  padding-left: 3rem;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.seccion_auricos_datos {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.seccion_auricos_datos .titulo_aurico_datos {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-family: "Satisfacer", cursiva;
+  font-size: 3em;
+  font-weight: bold;
+}
+.seccion_auricos_datos .div_auricos_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_auricos_datos .div_auricos_datos .imagen_aurico_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_auricos_datos .div_auricos_datos .imagen_aurico_datos .imagenAurico_datos {
+  width: 70%;
+  height: 85%;
+  border: 0.3rem black solid;
+  object-fit: cover;
+}
+.seccion_auricos_datos .div_auricos_datos .parrafos_aurico_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_auricos_datos .div_auricos_datos .parrafos_aurico_datos .parrafoAurico_datos {
+  text-align: center;
+  padding-left: 3rem;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.seccion_hoponomo_datos {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+}
+.seccion_hoponomo_datos .titulo_hoponomo_datos {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-family: "Satisfacer", cursiva;
+  font-size: 3em;
+  font-weight: bold;
+}
+.seccion_hoponomo_datos .div_hoponomo_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_hoponomo_datos .div_hoponomo_datos .imagen_hoponomo_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_hoponomo_datos .div_hoponomo_datos .imagen_hoponomo_datos .imagenHoponomo_datos {
+  width: 60%;
+  height: 95%;
+  border: 0.3rem black solid;
+  object-fit: cover;
+}
+.seccion_hoponomo_datos .div_hoponomo_datos .parrafos_hoponomo_datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_hoponomo_datos .div_hoponomo_datos .parrafos_hoponomo_datos .parrafoHoponomo_datos {
+  text-align: center;
+  padding-left: 3rem;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+
 /*modificando contacto.html*/
 .divPrincipal_contacto {
   display: flex;
@@ -509,12 +688,18 @@
   width: 25%;
 }
 
-.div_animado_contacto {
+.div_postura_contacto {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 90vh;
+  margin: auto;
+}
+.div_postura_contacto .imagen_postura_contacto {
+  width: 60%;
+  animation: animaciones infinite 2s ease-in-out;
 }
 
 /*media queries*//*# sourceMappingURL=estilos.css.map */

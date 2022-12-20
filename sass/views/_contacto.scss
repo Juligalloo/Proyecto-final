@@ -70,9 +70,16 @@
 
 }
 
-.div_animado_contacto{
+.div_postura_contacto{
     @include flex;
-    margin-top: $spacing-small;
-    margin-bottom: $spacing-small;
+    padding-top: $spacing-small;
+    padding-bottom: $spacing-small;
+    width: 90vh;
+    margin: auto;
+    .imagen_postura_contacto{
+        width: 60%;
+        animation:animaciones infinite 2s ease-in-out;
+    }
+   
 }
     
