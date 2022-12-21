@@ -9,10 +9,6 @@
   font-size: 62, 5%;
 }
 
-.imagenes {
-  object-fit: cover;
-}
-
 /*mixins*/
 /*partials*/
 /*modificaciones header*/
@@ -934,4 +930,10 @@
   animation: animaciones infinite 2s ease-in-out;
 }
 
-/*media queries*//*# sourceMappingURL=estilos.css.map */
+/*media queries*/
+/*modificaciones media queries*/
+@media screen and (max-widht: 576px) {
+  .cuerpo {
+    background-color: aqua;
+  }
+}/*# sourceMappingURL=estilos.css.map */
