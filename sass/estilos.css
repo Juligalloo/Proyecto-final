@@ -59,6 +59,10 @@
 }
 .footer_content .logo_footer .footer_logo {
   height: 100px;
+  transition: all 1s;
+}
+.footer_content .logo_footer .footer_logo:hover {
+  transform: scale(1.5);
 }
 .footer_content .nosotros_footer {
   text-align: center;
@@ -93,9 +97,17 @@
 .footer_content .nuestras_redes .logos_redes .logo_ig {
   height: 40px;
   margin-right: 2rem;
+  transition: all 1s;
+}
+.footer_content .nuestras_redes .logos_redes .logo_ig:hover {
+  transform: scale(1.8);
 }
 .footer_content .nuestras_redes .logos_redes .logo_yt {
   height: 40px;
+  transition: all 1s;
+}
+.footer_content .nuestras_redes .logos_redes .logo_yt:hover {
+  transform: scale(1.8);
 }
 
 .derechos_footer {
@@ -615,6 +627,226 @@
   text-align: center;
   padding-left: 3rem;
   width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+/*modificaciones productos.html*/
+.seccionPrincipal_productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3rem;
+}
+.seccionPrincipal_productos .tituloPrincipal_productos {
+  font-family: "Island Moments", cursiva;
+  font-size: 4.5em;
+  font-weight: bolder;
+  text-decoration: underline 0.3rem;
+}
+
+.div_carrito {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.div_carrito .imagen_carrito {
+  height: 25%;
+}
+
+.seccionProductos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.3rem black solid;
+  border-bottom: 0.3rem black solid;
+}
+.seccionProductos .divProductos_uno {
+  text-align: center;
+  height: 50%;
+  padding-right: 4rem;
+}
+.seccionProductos .divProductos_uno .parrafos_productos1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+.seccionProductos .divProductos_dos {
+  text-align: center;
+  height: 50%;
+  padding-top: 2rem;
+}
+.seccionProductos .divProductos_dos .parrafos_productos2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+.seccionProductos .div_marcas {
+  display: inline-block;
+}
+.seccionProductos .div_marcas .logos_productos {
+  height: 25%;
+  width: 20%;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  padding-left: 3rem;
+}
+
+.galeria {
+  width: 40%;
+  margin: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.seccion_sahumerios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_sahumerios .titulo_sahumerios {
+  text-align: center;
+  font-family: "Satisfacer", cursiva;
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: 3rem;
+}
+.seccion_sahumerios .div_aromas_sah {
+  background-color: white;
+  text-align: center;
+  border: 0.3rem black solid;
+  width: 40%;
+}
+.seccion_sahumerios .div_aromas_sah .aromas_sahumerios {
+  font-family: "Satisfacer", cursiva;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.seccion_sahumerios .div_aromas_sah .parrafos_sahumerios {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+.seccion_sahumerios .div_imagen_sahumerios {
+  transform: rotate(-90deg);
+  text-align: center;
+}
+.seccion_sahumerios .div_imagen_sahumerios .imagen_sahumerio {
+  padding: auto;
+  width: 43%;
+  border: 0.3rem black solid;
+}
+.seccion_sahumerios .div_valores_sahumerios {
+  background-color: white;
+  border: 0.3rem black solid;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+.seccion_sahumerios .div_valores_sahumerios .valores_sahumerios {
+  font-family: "Satisfacer", cursiva;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.seccion_sahumerios .div_valores_sahumerios .parrafos_sahumerios {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.seccion_bombas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_bombas .titulo_bombas {
+  text-align: center;
+  font-family: "Satisfacer", cursiva;
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: 3rem;
+}
+.seccion_bombas .div_estilos_bombas {
+  background-color: white;
+  text-align: center;
+  border: 0.3rem black solid;
+  width: 40%;
+}
+.seccion_bombas .div_estilos_bombas .estilos_bombas {
+  font-family: "Satisfacer", cursiva;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.seccion_bombas .div_estilos_bombas .parrafos_bombas {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+.seccion_bombas .div_imagen_bombas {
+  text-align: center;
+}
+.seccion_bombas .div_imagen_bombas .imagen_bombas {
+  padding: auto;
+  width: 56%;
+  border: 0.3rem black solid;
+}
+.seccion_bombas .div_valores_bombas {
+  background-color: white;
+  border: 0.3rem black solid;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
+.seccion_bombas .div_valores_bombas .valores_bombas {
+  font-family: "Satisfacer", cursiva;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.seccion_bombas .div_valores_bombas .parrafos_bombas {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.titulo_auricos {
+  text-align: center;
+  font-family: "Satisfacer", cursiva;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.div_cards {
+  margin-top: 3rem;
+  text-align: center;
+}
+.div_cards .cards {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border: 0.3rem black solid;
+}
+.div_cards .cards .imagen_card {
+  padding-top: 2rem;
+  transition: all 1s;
+}
+.div_cards .cards .imagen_card:hover {
+  transform: scale(1.3);
+}
+
+.tituloCards {
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
+}
+
+.div_valores_auricos {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  width: 25%;
+  border: 0.3rem black solid;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.div_valores_auricos .valores_auricos {
+  font-family: "Satisfacer", cursiva;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.div_valores_auricos .parrafos_auricos {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.2em;
 }

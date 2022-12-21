@@ -1,0 +1,218 @@
+/*modificaciones productos.html*/
+
+.seccionPrincipal_productos{
+   @include flex;
+   padding-right: 3rem;
+   .tituloPrincipal_productos{
+    font-family: $titulosprincipales;
+    font-size: $text-xlarge;
+    font-weight: bolder;
+    text-decoration: underline 0.3rem;
+   }
+
+}
+
+.div_carrito{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   .imagen_carrito{
+    height: 25%;
+   } 
+}
+
+.seccionProductos{
+   @include flex;
+   border-top: 0.3rem black solid;
+   border-bottom: 0.3rem black solid;
+   .divProductos_uno{
+    text-align: center;
+    height: 50%;
+    padding-right: $spacing-small;
+    .parrafos_productos1{
+        font-family: $parrafos;
+        font-size:$text-xsmall
+    }
+
+   }
+   .divProductos_dos{
+    text-align: center;
+    height: 50%;
+    padding-top: $spacing-xsmall;
+    .parrafos_productos2{
+        font-family: $parrafos;
+        font-size:$text-xsmall
+    }
+   }
+   .div_marcas{
+        display: inline-block;
+    .logos_productos{
+        height: 25%;
+        width: 20%;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        padding-left: 3rem;
+    }
+   } 
+}
+
+.galeria{
+    width: 40%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+.seccion_sahumerios{
+    @include flex;
+    .titulo_sahumerios{
+        text-align: center;
+        font-family: $minititulos;
+        font-size: $text-large;
+        font-weight: bold;
+        padding-bottom: 3rem;
+    }
+    .div_aromas_sah{
+        background-color: white;
+        text-align: center;
+        border: 0.3rem black solid;
+        width: 40%;
+        .aromas_sahumerios{
+           font-family: $minititulos;
+           font-size: $text-small;
+           font-weight: bold; 
+        }
+        .parrafos_sahumerios{
+            font-family: $parrafos;
+            font-size: $text-xsmall
+        }
+    }
+    .div_imagen_sahumerios{
+        transform: rotate(-90deg);
+        text-align: center;
+        .imagen_sahumerio{
+            padding: auto;
+            width: 43%;
+            border: 0.3rem black solid;
+        }
+    }
+    .div_valores_sahumerios{
+        background-color: white;
+        border: 0.3rem black solid;
+        text-align: center;
+        width: 30%;
+        margin-bottom: $spacing-xsmall;
+        .valores_sahumerios{
+        font-family: $minititulos;
+        font-size: $text-small;
+        font-weight: bold;
+        }
+        .parrafos_sahumerios{
+            font-family: $parrafos;
+            font-size: $text-xsmall;
+        }
+
+    }
+}
+
+.seccion_bombas{
+    @include flex;
+    .titulo_bombas{
+        text-align: center;
+        font-family: $minititulos;
+        font-size: $text-large;
+        font-weight: bold;
+        padding-bottom: 3rem;
+    }
+    .div_estilos_bombas{
+        background-color: white;
+        text-align: center;
+        border: 0.3rem black solid;
+        width: 40%;
+        .estilos_bombas{
+           font-family: $minititulos;
+           font-size: $text-small;
+           font-weight: bold; 
+        }
+        .parrafos_bombas{
+            font-family: $parrafos;
+            font-size: $text-xsmall
+        }
+    }
+    .div_imagen_bombas{
+        text-align: center;
+        .imagen_bombas{
+            padding: auto;
+            width: 56%;
+            border: 0.3rem black solid;
+        }
+    }
+    .div_valores_bombas{
+        background-color: white;
+        border: 0.3rem black solid;
+        text-align: center;
+        width: 30%;
+        margin-bottom: $spacing-xsmall;
+        margin-top: 2.5rem;
+        .valores_bombas{
+        font-family: $minititulos;
+        font-size: $text-small;
+        font-weight: bold;
+        }
+        .parrafos_bombas{
+            font-family: $parrafos;
+            font-size: $text-xsmall;
+        }
+
+    }
+}
+
+.titulo_auricos{
+    text-align: center;
+    font-family: $minititulos;
+    font-size: $text-large;
+    font-weight: bold;
+}
+
+.div_cards{
+    margin-top: 3rem;
+    text-align: center;
+    .cards{
+        padding-left: $spacing-small;
+        padding-right: $spacing-small;
+        border: 0.3rem black solid;
+        .imagen_card{
+            padding-top: 2rem;
+            transition: all 1s;
+            &:hover{
+                transform: scale(1.3);
+            }
+            
+        }
+    }
+}
+
+.tituloCards{
+    font-family: $tituloscards;
+    font-size: 1.5rem;
+    }
+
+.div_valores_auricos{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    border: 0.3rem black solid;
+    margin-top: $spacing-small;
+    margin-bottom: $spacing-medium;
+    .valores_auricos{
+    font-family: $minititulos;
+    font-size: $text-small;
+    font-weight: bold;
+    }
+    .parrafos_auricos{
+        font-family: $parrafos;
+        font-size: $text-xsmall;
+    }
+}
