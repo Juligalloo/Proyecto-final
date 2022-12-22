@@ -6,8 +6,8 @@
     align-items: center;
 }
 
-@mixin grid ($gtc, $gtr) {
-    display: grid;
-    grid-template-columns: repeat($gtc,1fr);
-    grid-template-rows: repeat($gtr,auto);
+@mixin mobile {
+    @media screen and (max-widht : 576px) {
+        @content;
+    }
 }

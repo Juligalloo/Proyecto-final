@@ -9,7 +9,12 @@
   font-size: 62, 5%;
 }
 
-/*mixins*/
+/*mixins*/ /*modificaciones media queries*/
+@media screen and (max-widht: 576px) {
+  .cuerpo {
+    background-color: aqua;
+  }
+}
 /*partials*/
 /*modificaciones header*/
 .header_content {
@@ -132,7 +137,7 @@
 }
 .cuerpo .mainTittle .tituloPrincipal_index {
   font-family: "Island Moments", cursiva;
-  font-size: 4.5rem;
+  font-size: 4.5em;
   font-weight: bold;
   letter-spacing: 0.8rem;
   padding-bottom: 2rem;
@@ -205,7 +210,7 @@
   padding: 4rem;
 }
 .seccionesIndex .imagenSeccion_uno .imagenIndex_uno {
-  width: 60%;
+  width: 70%;
   border: 0.3rem black solid;
   object-fit: cover;
 }
@@ -236,7 +241,7 @@
   padding: 4rem;
 }
 .seccionesIndex .imagenSeccion_dos .imagenIndex_dos {
-  width: 60%;
+  width: 70%;
   border: 0.3rem black solid;
   object-fit: cover;
 }
@@ -807,25 +812,32 @@
 }
 
 .div_cards {
-  margin-top: 3rem;
-  text-align: center;
+  padding-top: 3rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  width: 90%;
+  flex-wrap: wrap;
 }
 .div_cards .cards {
   padding-left: 4rem;
   padding-right: 4rem;
-  border: 0.3rem black solid;
+  transition: all 1s;
+  border-radius: 0.3rem white solid;
+}
+.div_cards .cards:hover {
+  transform: scale(1.1);
 }
 .div_cards .cards .imagen_card {
   padding-top: 2rem;
-  transition: all 1s;
-}
-.div_cards .cards .imagen_card:hover {
-  transform: scale(1.3);
 }
 
 .tituloCards {
   font-family: "Crimson Text", serif;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .div_valores_auricos {

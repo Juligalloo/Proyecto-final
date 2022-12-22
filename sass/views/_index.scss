@@ -7,7 +7,7 @@
         padding-top: $spacing-small;
         .tituloPrincipal_index{
             font-family: $titulosprincipales;
-            font-size: 4.5rem;
+            font-size: 4.5em;
             font-weight: bold;
             letter-spacing: 0.8rem;
             padding-bottom: $spacing-xsmall;
@@ -41,6 +41,7 @@
         100% {transform: translateY(0);}
     }
 }
+
 
 
 .seccionBienvenida{
@@ -81,7 +82,7 @@
         padding-top: $spacing-small;
         padding: $spacing-small;
         .imagenIndex_uno{
-            width: 60%;
+            width: 70%;
             border: 0.3rem black solid;
             object-fit: cover;
         }
@@ -114,7 +115,7 @@
         padding-top: $spacing-small;
         padding: $spacing-small;
         .imagenIndex_dos{
-            width: 60%;
+            width: 70%;
             border: 0.3rem black solid;
             object-fit: cover;
         }
